@@ -1,0 +1,22 @@
+{
+  "name": "react-window-with-table-elements",
+  "version": "1.0.0",
+  "description": "React, TypeScript, parcel",
+  "main": "src/index.tsx",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "@types/react": "16.9.20",
+    "@types/react-dom": "16.9.5",
+    "@types/react-window": "1.8.1",
+    "react": "16.12.0",
+    "react-dom": "16.12.0",
+    "react-window": "1.8.5"
+  },
+  "devDependencies": {
+    "parcel-bundler": "1.9.7"
+  },
+  "keywords": []
+}
