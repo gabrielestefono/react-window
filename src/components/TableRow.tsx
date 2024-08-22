@@ -1,3 +1,4 @@
+import { TableCell, TableRow } from '@material-ui/core'
 import React from 'react'
 import { ListChildComponentProps } from 'react-window'
 
@@ -7,11 +8,11 @@ interface RowProps extends ListChildComponentProps {
 
 export default function Row({ index, style }: Readonly<RowProps>) {
   return (
-    <tr>
-      <td style={{ height: '36px' }}>Row {index}</td>
-      <td>Col 2</td>
-      <td>Col 3</td>
-      <td>Col 4</td>
-    </tr>
+    <TableRow>
+      <TableCell>Row {index}</TableCell>
+      <TableCell>Col 2</TableCell>
+      <TableCell>Col 3</TableCell>
+      <TableCell>Col 4</TableCell>
+    </TableRow>
   )
 }
