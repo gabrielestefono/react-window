@@ -16,7 +16,8 @@
     "react-window": "1.8.5"
   },
   "devDependencies": {
-    "parcel-bundler": "1.9.7"
+    "parcel-bundler": "1.9.7",
+    "typescript": "^5.5.4"
   },
   "keywords": []
 }
